@@ -1,0 +1,22 @@
+{
+  "name": "growzen",
+  "owner": {
+    "name": "GrowZen",
+    "url": "https://growzen.app"
+  },
+  "metadata": {
+    "description": "GrowZen's Agent Skills for Claude. Expert cold-email and outreach marketing, best paired with the GrowZen MCP server.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "growzen-email-marketing",
+      "source": "./",
+      "description": "Turns Claude into an expert cold-email and outreach strategist. Works with any stack; drafts campaigns and triages replies directly in GrowZen when the GrowZen MCP is connected.",
+      "version": "1.0.0",
+      "author": { "name": "GrowZen", "url": "https://growzen.app" },
+      "homepage": "https://growzen.app/skill",
+      "keywords": ["email marketing", "cold email", "outreach", "deliverability", "sequences", "growzen"]
+    }
+  ]
+}
